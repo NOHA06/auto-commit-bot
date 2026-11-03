@@ -30,6 +30,6 @@ jobs:
 
       - name: Faire le commit et le push
         run: |
-          git add activity.log
-          git commit -m "chore: automated daily activity pulse 🚀"
+          git add README.md
+          git commit -m "docs: mise à jour automatique de la notion tech du jour 📚" || echo "No changes to commit"
           git push
