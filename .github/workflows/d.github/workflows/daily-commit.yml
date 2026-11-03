@@ -1,0 +1,36 @@
+name: Daily Auto Commit
+
+on:
+  schedule:
+    # S'exécute tous les jours à 8h00 UTC (ajuste l'heure selon tes envies)
+    - cron: '0 8 * * *'
+  workflow_dispatch: # Permet aussi de le lancer manuellement depuis l'onglet Actions
+
+jobs:
+  commit:
+  runs-on: ubuntu-latest
+  permissions:
+    contents: write # Indispensable pour autoriser le bot à pousser du code
+
+  steps:
+    - name: Récupérer le code du dépôt
+      uses: actions/checkout@v4
+
+    - name: Configurer Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Exécuter le script
+      run: node bot.js
+
+    - name: Configurer l'identité Git du bot
+      run: |
+        git config --global user.name "GitHub Actions Bot"
+        git config --global user.email "actions@github.com"
+
+    - name: Faire le commit et le push
+      run: |
+        git add activity.log
+        git commit -m "chore: automated daily activity pulse 🚀"
+        git push
