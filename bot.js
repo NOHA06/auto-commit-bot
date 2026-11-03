@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-// Liste actualisée : IA, Cloud, Base de données & Tech moderne
+// Liste actualisée : IA, Cloud, BDD & Tech moderne
 const topics = [
     // Intelligence Artificielle & Data
     'Grand_modèle_de_langage',
@@ -34,7 +34,7 @@ const topics = [
 ];
 
 async function fetchTechTerm() {
-    // Calcul de l'index basé sur la date du jour pour éviter les doublons aléatoires
+    // Calcul de l'index basé sur le jour de l'année pour éviter les répétitions
     const now = new Date();
     const dayOfYear = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / (1000 * 60 * 60 * 24));
     const topicIndex = dayOfYear % topics.length;
