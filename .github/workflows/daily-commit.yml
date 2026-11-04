@@ -2,14 +2,14 @@ name: Daily Auto Commit
 
 on:
   schedule:
-    - cron: '0 8 * * *'
-  workflow_dispatch:
+    - cron: '51 9 * * *' # S'exécute tous les jours à 08:45 UTC
+  workflow_dispatch:     # Permet aussi un lancement manuel depuis l'onglet Actions
 
 jobs:
   commit:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write # Indispensable pour donner les droits d'écriture au token GitHub
 
     steps:
       - name: Récupérer le code du dépôt
@@ -31,5 +31,5 @@ jobs:
       - name: Faire le commit et le push
         run: |
           git add README.md
-          # Vérifie s'il y a des changements avant de commiter et pousser
+          # Vérifie s'il y a des changements avant de commiter et pousser pour éviter les erreurs de pipeline
           git diff --staged --quiet || (git commit -m "docs: mise à jour automatique de la notion tech du jour 📚" && git push)
