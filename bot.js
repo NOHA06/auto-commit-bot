@@ -24,7 +24,7 @@ const topics = [
     'Base_de_données_relationnelle',
     'Stockage_clé-valeur',
     'Lac_de_données',
-    'Bus_de_données_d%27entreprise',
+    "Bus_de_données_d'entreprise",
     
     // Sécurité & Réseaux
     'Zero_Trust',
@@ -40,7 +40,8 @@ async function fetchTechTerm() {
     const topicIndex = dayOfYear % topics.length;
     const selectedTopic = topics[topicIndex];
 
-    const url = `https://fr.wikipedia.org/api/rest_v1/page/summary/${selectedTopic}`;
+    // encodeURIComponent sécurise les caractères spéciaux (accents, apostrophes, etc.) pour l'API Wikipédia
+    const url = `https://fr.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(selectedTopic)}`;
 
     try {
         const response = await fetch(url, {
