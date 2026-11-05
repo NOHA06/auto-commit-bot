@@ -2,7 +2,7 @@
 
 > Un robot autonome qui va chercher dynamiquement une notion informatique sur Wikipédia chaque jour !
 
-## 💡 Notion du jour (2026-11-04)
+## 💡 Notion du jour (2026-11-05)
 
 ### 🔹 **Intelligence Artificielle**
 > Ensemble de théories et de techniques mises en œuvre en vue de réaliser des machines capables de simuler l'intelligence.
@@ -14,4 +14,4 @@
 ## 🛠️ À propos de ce dépôt
 Ce dépôt s'enrichit automatiquement grâce à un **GitHub Action** quotidien exécutant un script Node.js sécurisé.
 
-*Dernière synchronisation : Wed, 04 Nov 2026 17:37:36 GMT*
+*Dernière synchronisation : Thu, 05 Nov 2026 12:32:57 GMT*
