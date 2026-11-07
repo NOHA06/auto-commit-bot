@@ -4,14 +4,14 @@
 
 ## 💡 Notion du jour (2026-11-07)
 
-### 🔹 **Intelligence Artificielle**
-> Ensemble de théories et de techniques mises en œuvre en vue de réaliser des machines capables de simuler l'intelligence.
+### 🔹 **Cryptographie asymétrique**
+> La cryptographie asymétrique, ou cryptographie à clé publique est un domaine relativement récent de la cryptographie. Elle permet d'assurer la confidentialité d'une communication, ou d'authentifier les participants, sans que cela repose sur une donnée secrète partagée entre ceux-ci, contrairement à la cryptographie symétrique qui nécessite ce secret partagé préalable.
 
-📖 [En savoir plus sur Wikipédia](https://fr.wikipedia.org/wiki/Intelligence_artificielle)
+📖 [En savoir plus sur Wikipédia](https://fr.wikipedia.org/wiki/Cryptographie_asym%C3%A9trique)
 
 ---
 
 ## 🛠️ À propos de ce dépôt
 Ce dépôt s'enrichit automatiquement grâce à un **GitHub Action** quotidien exécutant un script Node.js sécurisé.
 
-*Dernière synchronisation : Sat, 07 Nov 2026 15:56:33 GMT*
+*Dernière synchronisation : Sat, 07 Nov 2026 23:26:16 GMT*
