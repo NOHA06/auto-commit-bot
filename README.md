@@ -2,7 +2,7 @@
 
 > Un robot autonome qui va chercher dynamiquement une notion informatique sur Wikipédia chaque jour !
 
-## 💡 Notion du jour (2026-11-07)
+## 💡 Notion du jour (2026-11-08)
 
 ### 🔹 **Cryptographie asymétrique**
 > La cryptographie asymétrique, ou cryptographie à clé publique est un domaine relativement récent de la cryptographie. Elle permet d'assurer la confidentialité d'une communication, ou d'authentifier les participants, sans que cela repose sur une donnée secrète partagée entre ceux-ci, contrairement à la cryptographie symétrique qui nécessite ce secret partagé préalable.
@@ -14,4 +14,4 @@
 ## 🛠️ À propos de ce dépôt
 Ce dépôt s'enrichit automatiquement grâce à un **GitHub Action** quotidien exécutant un script Node.js sécurisé.
 
-*Dernière synchronisation : Sat, 07 Nov 2026 23:26:16 GMT*
+*Dernière synchronisation : Sun, 08 Nov 2026 02:34:12 GMT*
