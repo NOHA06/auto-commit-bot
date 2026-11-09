@@ -2,16 +2,16 @@
 
 > Un robot autonome qui va chercher dynamiquement une notion informatique sur Wikipédia chaque jour !
 
-## 💡 Notion du jour (2026-11-08)
+## 💡 Notion du jour (2026-11-09)
 
-### 🔹 **Cryptographie asymétrique**
-> La cryptographie asymétrique, ou cryptographie à clé publique est un domaine relativement récent de la cryptographie. Elle permet d'assurer la confidentialité d'une communication, ou d'authentifier les participants, sans que cela repose sur une donnée secrète partagée entre ceux-ci, contrairement à la cryptographie symétrique qui nécessite ce secret partagé préalable.
+### 🔹 **OAuth**
+> OAuth est un protocole libre qui permet d'autoriser un site web, un logiciel ou une application à utiliser l'API sécurisée d'un autre site web pour le compte d'un utilisateur. OAuth n'est pas un protocole d'authentification, mais de « délégation d'autorisation ».
 
-📖 [En savoir plus sur Wikipédia](https://fr.wikipedia.org/wiki/Cryptographie_asym%C3%A9trique)
+📖 [En savoir plus sur Wikipédia](https://fr.wikipedia.org/wiki/OAuth)
 
 ---
 
 ## 🛠️ À propos de ce dépôt
 Ce dépôt s'enrichit automatiquement grâce à un **GitHub Action** quotidien exécutant un script Node.js sécurisé.
 
-*Dernière synchronisation : Sun, 08 Nov 2026 02:34:12 GMT*
+*Dernière synchronisation : Mon, 09 Nov 2026 02:44:18 GMT*
