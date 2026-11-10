@@ -2,16 +2,16 @@
 
 > Un robot autonome qui va chercher dynamiquement une notion informatique sur Wikipédia chaque jour !
 
-## 💡 Notion du jour (2026-11-09)
+## 💡 Notion du jour (2026-11-10)
 
-### 🔹 **OAuth**
-> OAuth est un protocole libre qui permet d'autoriser un site web, un logiciel ou une application à utiliser l'API sécurisée d'un autre site web pour le compte d'un utilisateur. OAuth n'est pas un protocole d'authentification, mais de « délégation d'autorisation ».
+### 🔹 **Chiffrement de bout en bout**
+> Le chiffrement de bout en bout est un système de communication où seules les personnes qui communiquent peuvent lire les messages échangés. En principe, il empêche l'écoute électronique, y compris par les fournisseurs de télécommunications, par les fournisseurs d'accès Internet et même par le fournisseur du service de communication. Avec le chiffrement de bout en bout, personne n'est en mesure d'accéder aux clés cryptographiques nécessaires pour déchiffrer la conversation.
 
-📖 [En savoir plus sur Wikipédia](https://fr.wikipedia.org/wiki/OAuth)
+📖 [En savoir plus sur Wikipédia](https://fr.wikipedia.org/wiki/Chiffrement_de_bout_en_bout)
 
 ---
 
 ## 🛠️ À propos de ce dépôt
 Ce dépôt s'enrichit automatiquement grâce à un **GitHub Action** quotidien exécutant un script Node.js sécurisé.
 
-*Dernière synchronisation : Mon, 09 Nov 2026 02:44:18 GMT*
+*Dernière synchronisation : Tue, 10 Nov 2026 04:40:23 GMT*
