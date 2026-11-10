@@ -3,7 +3,7 @@ name: Daily Auto Commit
 
 on:
   schedule:
-    - cron: '20 23 * * *' # Tous les jours à 06:17 UTC (heure creuse, moins de retards)
+    - cron: '40 07* * *' # Tous les jours à 06:17 UTC (heure creuse, moins de retards)
   workflow_dispatch:     # Lancement manuel depuis l'onglet Actions
 
 jobs:
