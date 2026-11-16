@@ -2,16 +2,16 @@
 
 > Un robot autonome qui va chercher dynamiquement une notion informatique sur Wikipédia chaque jour !
 
-## 💡 Notion du jour (2026-11-15)
+## 💡 Notion du jour (2026-11-16)
 
-### 🔹 **Inférence**
-> 
+### 🔹 **Réseau de neurones artificiels**
+> Un réseau de neurones artificiels, ou réseau neuronal artificiel, est un système informatique dont la conception est inspirée à l'origine du fonctionnement des neurones mais qui, par la suite, s'est rapproché des méthodes statistiques.
 
-📖 [En savoir plus sur Wikipédia](https://fr.wikipedia.org/wiki/Inf%C3%A9rence)
+📖 [En savoir plus sur Wikipédia](https://fr.wikipedia.org/wiki/R%C3%A9seau_de_neurones_artificiels)
 
 ---
 
 ## 🛠️ À propos de ce dépôt
 Ce dépôt s'enrichit automatiquement grâce à un **GitHub Action** quotidien exécutant un script Node.js sécurisé.
 
-*Dernière synchronisation : Sun, 15 Nov 2026 14:57:44 GMT*
+*Dernière synchronisation : Mon, 16 Nov 2026 11:33:22 GMT*
