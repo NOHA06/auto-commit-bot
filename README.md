@@ -2,16 +2,16 @@
 
 > Un robot autonome qui va chercher dynamiquement une notion informatique sur Wikipédia chaque jour !
 
-## 💡 Notion du jour (2026-11-20)
+## 💡 Notion du jour (2026-11-21)
 
-### 🔹 **Microservices**
-> En informatique, les microservices sont des services logiciels. L’architecture en microservices est une variante du style architectural orienté services (SOA), qui structure une application comme un ensemble de services faiblement couplés. Les microservices, indépendants les uns des autres, communiquent entre eux à l’aide d’API indépendantes du langage de programmation.
+### 🔹 **Conteneur (informatique)**
+> En informatique, un conteneur est une structure de données, une classe, ou un type de données abstrait, dont les instances représentent des collections d'autres objets. Autrement dit, les conteneurs sont utilisés pour stocker des objets sous une forme organisée qui suit des règles d'accès spécifiques. On peut implémenter un conteneur de différentes façons, qui conduisent à des complexités en temps et en espace différentes. On choisira donc l'implémentation selon les besoins.
 
-📖 [En savoir plus sur Wikipédia](https://fr.wikipedia.org/wiki/Microservices)
+📖 [En savoir plus sur Wikipédia](https://fr.wikipedia.org/wiki/Conteneur_(informatique))
 
 ---
 
 ## 🛠️ À propos de ce dépôt
 Ce dépôt s'enrichit automatiquement grâce à un **GitHub Action** quotidien exécutant un script Node.js sécurisé.
 
-*Dernière synchronisation : Fri, 20 Nov 2026 16:21:59 GMT*
+*Dernière synchronisation : Sat, 21 Nov 2026 15:36:32 GMT*
