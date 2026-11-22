@@ -1,5 +1,15 @@
-
 {
   "version": 1,
-  "publications": []
+  "publications": [
+    {
+      "topic": "Grand_modèle_de_langage",
+      "title": "Grand modèle de langage",
+      "extract": "Un grand modèle de langage, grand modèle linguistique, grand modèle de langue, modèle de langage de grande taille ou encore modèle massif de langage est un modèle de langage possédant un nombre élevé de paramètres.",
+      "url": "https://fr.wikipedia.org/wiki/Grand_mod%C3%A8le_de_langage",
+      "category": "Intelligence artificielle",
+      "icon": "🤖",
+      "date": "2026-11-22",
+      "publishedAt": "2026-11-22T13:52:45.060Z"
+    }
+  ]
 }
