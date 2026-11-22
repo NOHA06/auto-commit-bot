@@ -102,6 +102,8 @@ function getDateInfo() {
 // ==========================================
 
 function loadHistory() {
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+
     if (!fs.existsSync(HISTORY_FILE)) {
         return {
             version: 1,
@@ -110,15 +112,25 @@ function loadHistory() {
     }
 
     try {
-        const data = JSON.parse(
-            fs.readFileSync(HISTORY_FILE, 'utf8')
-        );
+        const content = fs.readFileSync(HISTORY_FILE, 'utf8').trim();
+
+        // Fichier vide : initialisation automatique
+        if (!content) {
+            console.warn('⚠️ Historique vide. Initialisation...');
+            return {
+                version: 1,
+                publications: []
+            };
+        }
+
+        const data = JSON.parse(content);
 
         if (!Array.isArray(data.publications)) {
             throw new Error('Format historique invalide.');
         }
 
         return data;
+
     } catch (error) {
         throw new Error(
             `Impossible de lire l'historique : ${error.message}`
