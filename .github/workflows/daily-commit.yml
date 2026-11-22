@@ -1,35 +1,83 @@
 
-name: Daily Auto Commit
+name: Daily Tech Dictionary
 
 on:
   schedule:
-    - cron: '40 07 * * *' # Tous les jours à 06:17 UTC (heure creuse, moins de retards)
-  workflow_dispatch:     # Lancement manuel depuis l'onglet Actions
+    - cron: '40 07 * * *' # Tous les jours à 07h40 UTC (Abidjan)
+  workflow_dispatch:
+
+# Éviter les exécutions simultanées
+concurrency:
+  group: daily-tech-dictionary
+  cancel-in-progress: false
+
+permissions:
+  contents: write
 
 jobs:
-  commit:
+  update-dictionary:
+    name: Générer la notion du jour
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    timeout-minutes: 10
 
     steps:
-      - name: Récupérer le code du dépôt
+      # 1. Récupération du dépôt
+      - name: Checkout du dépôt
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
-      - name: Configurer Node.js
+      # 2. Configuration de Node.js
+      - name: Configuration de Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
 
-      - name: Exécuter le script
-        run: node bot.js
-
-      - name: Configurer l'identité Git (liée au compte NOHA06)
+      # 3. Exécution du bot
+      - name: Génération du dictionnaire
         run: |
-          git config --global user.name "NOHA06"
-          git config --global user.email "${{ github.repository_owner_id }}+NOHA06@users.noreply.github.com"
+          echo "🚀 Démarrage du Dictionnaire Tech..."
+          node bot.js
 
-      - name: Faire le commit et le push
+      # 4. Configuration Git
+      - name: Configuration de Git
         run: |
-          git add README.md
-          git diff --staged --quiet || (git commit -m "docs: mise à jour automatique de la notion tech du jour 📚" && git push)
+          git config user.name "NOHA06"
+          git config user.email "${{ github.repository_owner_id }}+NOHA06@users.noreply.github.com"
+
+      # 5. Vérification des modifications
+      - name: Préparation des fichiers
+        run: |
+          git add -- README.md data/history.json
+
+          if git diff --cached --quiet; then
+            echo "ℹ️ Aucune modification à publier."
+            echo "SKIP_COMMIT=true" >> "$GITHUB_ENV"
+          else
+            echo "CHANGES_FOUND=true" >> "$GITHUB_ENV"
+            echo "✅ Modifications détectées."
+          fi
+
+      # 6. Commit et publication
+      - name: Commit et Push
+        if: env.CHANGES_FOUND == 'true'
+        run: |
+          DATE=$(TZ=Africa/Abidjan date +"%d/%m/%Y")
+
+          git commit \
+            -m "docs: notion tech du jour 📚" \
+            -m "Mise à jour automatique du ${DATE}"
+
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+          echo "🎉 Publication réussie !"
+
+      # 7. Résumé de l'exécution
+      - name: Résumé
+        if: success()
+        run: |
+          echo "## 📚 Dictionnaire Tech du Jour" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "✅ Exécution terminée avec succès." >> "$GITHUB_STEP_SUMMARY"
+          echo "📅 Date : $(TZ=Africa/Abidjan date +"%d/%m/%Y %H:%M")" >> "$GITHUB_STEP_SUMMARY"
+          echo "📄 README et historique vérifiés." >> "$GITHUB_STEP_SUMMARY"
