@@ -1,7 +1,7 @@
 <!--
   Dictionnaire Tech du Jour
   Projet automatisé - NOHA06
-  Généré le 2026-11-22
+  Généré le 2026-11-23
 -->
 
 <div align="center">
@@ -25,17 +25,17 @@
 ## 💡 LA NOTION DU JOUR
 
 <details open>
-<summary><strong>🤖 Intelligence artificielle — Grand modèle de langage</strong></summary>
+<summary><strong>🤖 Intelligence artificielle — Apprentissage par renforcement</strong></summary>
 
 <br>
 
-> Un grand modèle de langage, grand modèle linguistique, grand modèle de langue, modèle de langage de grande taille ou encore modèle massif de langage est un modèle de langage possédant un nombre élevé de paramètres.
+> En intelligence artificielle, plus précisément en apprentissage automatique, l'apprentissage par renforcement consiste, pour un agent autonome, à apprendre pour chaque instant à prendre la meilleure action qui maximisera une récompense qui n'arrive qu'à des moments rares ou uniquement lors de la réussite ou de l'échec terminal d'une tâche.
 
 <br>
 
 <div align="right">
 
-**📖 [Découvrir la source originale sur Wikipédia](https://fr.wikipedia.org/wiki/Grand_mod%C3%A8le_de_langage)**
+**📖 [Découvrir la source originale sur Wikipédia](https://fr.wikipedia.org/wiki/Apprentissage_par_renforcement)**
 
 </div>
 
@@ -49,7 +49,7 @@
 
 | 📚 Notions publiées | 🗂️ Catégories explorées | 💻 Notions disponibles |
 |:---:|:---:|:---:|
-| **1** | **1** | **30** |
+| **2** | **1** | **30** |
 
 </div>
 
@@ -62,7 +62,9 @@ Voici les dix dernières notions ajoutées au dictionnaire.
 | # | Date | Notion | Catégorie | Source |
 |:---:|:---:|:---|:---|:---:|
 
-| 1 | 2026-11-22 | 🤖 Grand modèle de langage | Intelligence artificielle | [Consulter](https://fr.wikipedia.org/wiki/Grand_mod%C3%A8le_de_langage) |
+| 1 | 2026-11-23 | 🤖 Apprentissage par renforcement | Intelligence artificielle | [Consulter](https://fr.wikipedia.org/wiki/Apprentissage_par_renforcement) |
+
+| 2 | 2026-11-22 | 🤖 Grand modèle de langage | Intelligence artificielle | [Consulter](https://fr.wikipedia.org/wiki/Grand_mod%C3%A8le_de_langage) |
 
 
 ---
@@ -104,6 +106,6 @@ Son objectif est simple : découvrir régulièrement de nouvelles notions inform
 
 Développé avec curiosité par **[NOHA06](https://github.com/NOHA06)** 👩🏾‍💻
 
-<sub>Dernière synchronisation : 22 novembre 2026 à 15:40 (UTC)</sub>
+<sub>Dernière synchronisation : 23 novembre 2026 à 19:28 (UTC)</sub>
 
 </div>

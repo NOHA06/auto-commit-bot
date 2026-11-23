@@ -10,6 +10,16 @@
       "icon": "🤖",
       "date": "2026-11-22",
       "publishedAt": "2026-11-22T13:52:45.060Z"
+    },
+    {
+      "topic": "Apprentissage_par_renforcement",
+      "title": "Apprentissage par renforcement",
+      "extract": "En intelligence artificielle, plus précisément en apprentissage automatique, l'apprentissage par renforcement consiste, pour un agent autonome, à apprendre pour chaque instant à prendre la meilleure action qui maximisera une récompense qui n'arrive qu'à des moments rares ou uniquement lors de la réussite ou de l'échec terminal d'une tâche.",
+      "url": "https://fr.wikipedia.org/wiki/Apprentissage_par_renforcement",
+      "category": "Intelligence artificielle",
+      "icon": "🤖",
+      "date": "2026-11-23",
+      "publishedAt": "2026-11-23T19:28:28.879Z"
     }
   ]
 }
