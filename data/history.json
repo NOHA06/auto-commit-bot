@@ -20,6 +20,16 @@
       "icon": "🤖",
       "date": "2026-11-23",
       "publishedAt": "2026-11-23T19:28:28.879Z"
+    },
+    {
+      "topic": "Base_de_données_vectorielle",
+      "title": "Base de données vectorielle",
+      "extract": "Une base de données vectorielle est une base de données utilisée pour stocker des vecteurs à haute dimension.",
+      "url": "https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es_vectorielle",
+      "category": "Data & Bases de données",
+      "icon": "🗄️",
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-24T19:05:33.907Z"
     }
   ]
 }

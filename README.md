@@ -1,7 +1,7 @@
 <!--
   Dictionnaire Tech du Jour
   Projet automatisé - NOHA06
-  Généré le 2026-11-23
+  Généré le 2026-11-24
 -->
 
 <div align="center">
@@ -25,17 +25,17 @@
 ## 💡 LA NOTION DU JOUR
 
 <details open>
-<summary><strong>🤖 Intelligence artificielle — Apprentissage par renforcement</strong></summary>
+<summary><strong>🗄️ Data & Bases de données — Base de données vectorielle</strong></summary>
 
 <br>
 
-> En intelligence artificielle, plus précisément en apprentissage automatique, l'apprentissage par renforcement consiste, pour un agent autonome, à apprendre pour chaque instant à prendre la meilleure action qui maximisera une récompense qui n'arrive qu'à des moments rares ou uniquement lors de la réussite ou de l'échec terminal d'une tâche.
+> Une base de données vectorielle est une base de données utilisée pour stocker des vecteurs à haute dimension.
 
 <br>
 
 <div align="right">
 
-**📖 [Découvrir la source originale sur Wikipédia](https://fr.wikipedia.org/wiki/Apprentissage_par_renforcement)**
+**📖 [Découvrir la source originale sur Wikipédia](https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es_vectorielle)**
 
 </div>
 
@@ -49,7 +49,7 @@
 
 | 📚 Notions publiées | 🗂️ Catégories explorées | 💻 Notions disponibles |
 |:---:|:---:|:---:|
-| **2** | **1** | **30** |
+| **3** | **2** | **30** |
 
 </div>
 
@@ -62,9 +62,11 @@ Voici les dix dernières notions ajoutées au dictionnaire.
 | # | Date | Notion | Catégorie | Source |
 |:---:|:---:|:---|:---|:---:|
 
-| 1 | 2026-11-23 | 🤖 Apprentissage par renforcement | Intelligence artificielle | [Consulter](https://fr.wikipedia.org/wiki/Apprentissage_par_renforcement) |
+| 1 | 2026-11-24 | 🗄️ Base de données vectorielle | Data & Bases de données | [Consulter](https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es_vectorielle) |
 
-| 2 | 2026-11-22 | 🤖 Grand modèle de langage | Intelligence artificielle | [Consulter](https://fr.wikipedia.org/wiki/Grand_mod%C3%A8le_de_langage) |
+| 2 | 2026-11-23 | 🤖 Apprentissage par renforcement | Intelligence artificielle | [Consulter](https://fr.wikipedia.org/wiki/Apprentissage_par_renforcement) |
+
+| 3 | 2026-11-22 | 🤖 Grand modèle de langage | Intelligence artificielle | [Consulter](https://fr.wikipedia.org/wiki/Grand_mod%C3%A8le_de_langage) |
 
 
 ---
@@ -106,6 +108,6 @@ Son objectif est simple : découvrir régulièrement de nouvelles notions inform
 
 Développé avec curiosité par **[NOHA06](https://github.com/NOHA06)** 👩🏾‍💻
 
-<sub>Dernière synchronisation : 23 novembre 2026 à 19:28 (UTC)</sub>
+<sub>Dernière synchronisation : 24 novembre 2026 à 19:05 (UTC)</sub>
 
 </div>
