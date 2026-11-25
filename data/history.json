@@ -30,6 +30,16 @@
       "icon": "🗄️",
       "date": "2026-11-24",
       "publishedAt": "2026-11-24T19:05:33.907Z"
+    },
+    {
+      "topic": "Generative_adversarial_network",
+      "title": "Réseaux antagonistes génératifs",
+      "extract": "En intelligence artificielle, les réseaux antagonistes génératifs parfois aussi appelés réseaux adverses génératifs sont une classe d'algorithmes d'apprentissage non supervisé. Ces algorithmes ont été introduits par Goodfellow et al. 2014. Ils permettent de générer des images avec un fort degré de réalisme.",
+      "url": "https://fr.wikipedia.org/wiki/R%C3%A9seaux_antagonistes_g%C3%A9n%C3%A9ratifs",
+      "category": "Intelligence artificielle",
+      "icon": "🤖",
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-25T18:10:55.003Z"
     }
   ]
 }

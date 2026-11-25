@@ -1,7 +1,7 @@
 <!--
   Dictionnaire Tech du Jour
   Projet automatisé - NOHA06
-  Généré le 2026-11-24
+  Généré le 2026-11-25
 -->
 
 <div align="center">
@@ -25,17 +25,17 @@
 ## 💡 LA NOTION DU JOUR
 
 <details open>
-<summary><strong>🗄️ Data & Bases de données — Base de données vectorielle</strong></summary>
+<summary><strong>🤖 Intelligence artificielle — Réseaux antagonistes génératifs</strong></summary>
 
 <br>
 
-> Une base de données vectorielle est une base de données utilisée pour stocker des vecteurs à haute dimension.
+> En intelligence artificielle, les réseaux antagonistes génératifs parfois aussi appelés réseaux adverses génératifs sont une classe d'algorithmes d'apprentissage non supervisé. Ces algorithmes ont été introduits par Goodfellow et al. 2014. Ils permettent de générer des images avec un fort degré de réalisme.
 
 <br>
 
 <div align="right">
 
-**📖 [Découvrir la source originale sur Wikipédia](https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es_vectorielle)**
+**📖 [Découvrir la source originale sur Wikipédia](https://fr.wikipedia.org/wiki/R%C3%A9seaux_antagonistes_g%C3%A9n%C3%A9ratifs)**
 
 </div>
 
@@ -49,7 +49,7 @@
 
 | 📚 Notions publiées | 🗂️ Catégories explorées | 💻 Notions disponibles |
 |:---:|:---:|:---:|
-| **3** | **2** | **30** |
+| **4** | **2** | **30** |
 
 </div>
 
@@ -62,11 +62,13 @@ Voici les dix dernières notions ajoutées au dictionnaire.
 | # | Date | Notion | Catégorie | Source |
 |:---:|:---:|:---|:---|:---:|
 
-| 1 | 2026-11-24 | 🗄️ Base de données vectorielle | Data & Bases de données | [Consulter](https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es_vectorielle) |
+| 1 | 2026-11-25 | 🤖 Réseaux antagonistes génératifs | Intelligence artificielle | [Consulter](https://fr.wikipedia.org/wiki/R%C3%A9seaux_antagonistes_g%C3%A9n%C3%A9ratifs) |
 
-| 2 | 2026-11-23 | 🤖 Apprentissage par renforcement | Intelligence artificielle | [Consulter](https://fr.wikipedia.org/wiki/Apprentissage_par_renforcement) |
+| 2 | 2026-11-24 | 🗄️ Base de données vectorielle | Data & Bases de données | [Consulter](https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es_vectorielle) |
 
-| 3 | 2026-11-22 | 🤖 Grand modèle de langage | Intelligence artificielle | [Consulter](https://fr.wikipedia.org/wiki/Grand_mod%C3%A8le_de_langage) |
+| 3 | 2026-11-23 | 🤖 Apprentissage par renforcement | Intelligence artificielle | [Consulter](https://fr.wikipedia.org/wiki/Apprentissage_par_renforcement) |
+
+| 4 | 2026-11-22 | 🤖 Grand modèle de langage | Intelligence artificielle | [Consulter](https://fr.wikipedia.org/wiki/Grand_mod%C3%A8le_de_langage) |
 
 
 ---
@@ -108,6 +110,6 @@ Son objectif est simple : découvrir régulièrement de nouvelles notions inform
 
 Développé avec curiosité par **[NOHA06](https://github.com/NOHA06)** 👩🏾‍💻
 
-<sub>Dernière synchronisation : 24 novembre 2026 à 19:05 (UTC)</sub>
+<sub>Dernière synchronisation : 25 novembre 2026 à 18:10 (UTC)</sub>
 
 </div>
