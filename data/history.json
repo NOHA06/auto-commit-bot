@@ -40,6 +40,16 @@
       "icon": "🤖",
       "date": "2026-11-25",
       "publishedAt": "2026-11-25T18:10:55.003Z"
+    },
+    {
+      "topic": "Réseau_de_neurones_artificiel",
+      "title": "Réseau de neurones artificiels",
+      "extract": "Un réseau de neurones artificiels, ou réseau neuronal artificiel, est un système informatique dont la conception est inspirée à l'origine du fonctionnement des neurones mais qui, par la suite, s'est rapproché des méthodes statistiques.",
+      "url": "https://fr.wikipedia.org/wiki/R%C3%A9seau_de_neurones_artificiels",
+      "category": "Intelligence artificielle",
+      "icon": "🤖",
+      "date": "2026-11-26",
+      "publishedAt": "2026-11-26T17:53:26.006Z"
     }
   ]
 }
