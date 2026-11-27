@@ -1,7 +1,7 @@
 <!--
   Dictionnaire Tech du Jour
   Projet automatisé - NOHA06
-  Généré le 2026-11-26
+  Généré le 2026-11-27
 -->
 
 <div align="center">
@@ -25,17 +25,17 @@
 ## 💡 LA NOTION DU JOUR
 
 <details open>
-<summary><strong>🤖 Intelligence artificielle — Réseau de neurones artificiels</strong></summary>
+<summary><strong>☁️ Cloud & DevOps — Kubernetes</strong></summary>
 
 <br>
 
-> Un réseau de neurones artificiels, ou réseau neuronal artificiel, est un système informatique dont la conception est inspirée à l'origine du fonctionnement des neurones mais qui, par la suite, s'est rapproché des méthodes statistiques.
+> Kubernetes est un système open source qui vise à fournir une « plate-forme permettant d'automatiser le déploiement, la montée en charge et la mise en œuvre de conteneurs d'application sur des grappes de serveurs ». Il fonctionne avec toute une série de technologies de conteneurisation, et est souvent utilisé avec Docker. Il a été conçu à l'origine par Google, puis offert à la Cloud Native Computing Foundation.
 
 <br>
 
 <div align="right">
 
-**📖 [Découvrir la source originale sur Wikipédia](https://fr.wikipedia.org/wiki/R%C3%A9seau_de_neurones_artificiels)**
+**📖 [Découvrir la source originale sur Wikipédia](https://fr.wikipedia.org/wiki/Kubernetes)**
 
 </div>
 
@@ -49,7 +49,7 @@
 
 | 📚 Notions publiées | 🗂️ Catégories explorées | 💻 Notions disponibles |
 |:---:|:---:|:---:|
-| **5** | **2** | **30** |
+| **6** | **3** | **30** |
 
 </div>
 
@@ -62,15 +62,17 @@ Voici les dix dernières notions ajoutées au dictionnaire.
 | # | Date | Notion | Catégorie | Source |
 |:---:|:---:|:---|:---|:---:|
 
-| 1 | 2026-11-26 | 🤖 Réseau de neurones artificiels | Intelligence artificielle | [Consulter](https://fr.wikipedia.org/wiki/R%C3%A9seau_de_neurones_artificiels) |
+| 1 | 2026-11-27 | ☁️ Kubernetes | Cloud & DevOps | [Consulter](https://fr.wikipedia.org/wiki/Kubernetes) |
 
-| 2 | 2026-11-25 | 🤖 Réseaux antagonistes génératifs | Intelligence artificielle | [Consulter](https://fr.wikipedia.org/wiki/R%C3%A9seaux_antagonistes_g%C3%A9n%C3%A9ratifs) |
+| 2 | 2026-11-26 | 🤖 Réseau de neurones artificiels | Intelligence artificielle | [Consulter](https://fr.wikipedia.org/wiki/R%C3%A9seau_de_neurones_artificiels) |
 
-| 3 | 2026-11-24 | 🗄️ Base de données vectorielle | Data & Bases de données | [Consulter](https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es_vectorielle) |
+| 3 | 2026-11-25 | 🤖 Réseaux antagonistes génératifs | Intelligence artificielle | [Consulter](https://fr.wikipedia.org/wiki/R%C3%A9seaux_antagonistes_g%C3%A9n%C3%A9ratifs) |
 
-| 4 | 2026-11-23 | 🤖 Apprentissage par renforcement | Intelligence artificielle | [Consulter](https://fr.wikipedia.org/wiki/Apprentissage_par_renforcement) |
+| 4 | 2026-11-24 | 🗄️ Base de données vectorielle | Data & Bases de données | [Consulter](https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es_vectorielle) |
 
-| 5 | 2026-11-22 | 🤖 Grand modèle de langage | Intelligence artificielle | [Consulter](https://fr.wikipedia.org/wiki/Grand_mod%C3%A8le_de_langage) |
+| 5 | 2026-11-23 | 🤖 Apprentissage par renforcement | Intelligence artificielle | [Consulter](https://fr.wikipedia.org/wiki/Apprentissage_par_renforcement) |
+
+| 6 | 2026-11-22 | 🤖 Grand modèle de langage | Intelligence artificielle | [Consulter](https://fr.wikipedia.org/wiki/Grand_mod%C3%A8le_de_langage) |
 
 
 ---
@@ -112,6 +114,6 @@ Son objectif est simple : découvrir régulièrement de nouvelles notions inform
 
 Développé avec curiosité par **[NOHA06](https://github.com/NOHA06)** 👩🏾‍💻
 
-<sub>Dernière synchronisation : 26 novembre 2026 à 17:53 (UTC)</sub>
+<sub>Dernière synchronisation : 27 novembre 2026 à 17:39 (UTC)</sub>
 
 </div>

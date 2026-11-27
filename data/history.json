@@ -50,6 +50,16 @@
       "icon": "🤖",
       "date": "2026-11-26",
       "publishedAt": "2026-11-26T17:53:26.006Z"
+    },
+    {
+      "topic": "Kubernetes",
+      "title": "Kubernetes",
+      "extract": "Kubernetes est un système open source qui vise à fournir une « plate-forme permettant d'automatiser le déploiement, la montée en charge et la mise en œuvre de conteneurs d'application sur des grappes de serveurs ». Il fonctionne avec toute une série de technologies de conteneurisation, et est souvent utilisé avec Docker. Il a été conçu à l'origine par Google, puis offert à la Cloud Native Computing Foundation.",
+      "url": "https://fr.wikipedia.org/wiki/Kubernetes",
+      "category": "Cloud & DevOps",
+      "icon": "☁️",
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-27T17:39:42.551Z"
     }
   ]
 }
